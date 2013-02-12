@@ -18,6 +18,8 @@
 		DCA8244016C985AF00B1A98D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA8243F16C985AF00B1A98D /* Default-568h@2x.png */; };
 		DCA8244316C985AF00B1A98D /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8244216C985AF00B1A98D /* MMViewController.m */; };
 		DCA8244616C985AF00B1A98D /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA8244416C985AF00B1A98D /* MMViewController.xib */; };
+		DCA8245416C9906A00B1A98D /* MMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8245216C9906900B1A98D /* MMSecondViewController.m */; };
+		DCA8245516C9906A00B1A98D /* MMSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA8245316C9906900B1A98D /* MMSecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		DCA8244116C985AF00B1A98D /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		DCA8244216C985AF00B1A98D /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
 		DCA8244516C985AF00B1A98D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		DCA8245116C9906900B1A98D /* MMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSecondViewController.h; sourceTree = "<group>"; };
+		DCA8245216C9906900B1A98D /* MMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSecondViewController.m; sourceTree = "<group>"; };
+		DCA8245316C9906900B1A98D /* MMSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMSecondViewController.xib; sourceTree = "<group>"; };
+		DCA8245616C9927200B1A98D /* ColorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		DCA8241D16C985AF00B1A98D = {
 			isa = PBXGroup;
 			children = (
+				DCA8245616C9927200B1A98D /* ColorDelegate.h */,
 				DCA8242F16C985AF00B1A98D /* MM Delegate */,
 				DCA8242816C985AF00B1A98D /* Frameworks */,
 				DCA8242716C985AF00B1A98D /* Products */,
@@ -83,6 +90,9 @@
 		DCA8242F16C985AF00B1A98D /* MM Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				DCA8245116C9906900B1A98D /* MMSecondViewController.h */,
+				DCA8245216C9906900B1A98D /* MMSecondViewController.m */,
+				DCA8245316C9906900B1A98D /* MMSecondViewController.xib */,
 				DCA8243816C985AF00B1A98D /* MMAppDelegate.h */,
 				DCA8243916C985AF00B1A98D /* MMAppDelegate.m */,
 				DCA8244116C985AF00B1A98D /* MMViewController.h */,
@@ -164,6 +174,7 @@
 				DCA8243E16C985AF00B1A98D /* Default@2x.png in Resources */,
 				DCA8244016C985AF00B1A98D /* Default-568h@2x.png in Resources */,
 				DCA8244616C985AF00B1A98D /* MMViewController.xib in Resources */,
+				DCA8245516C9906A00B1A98D /* MMSecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +188,7 @@
 				DCA8243616C985AF00B1A98D /* main.m in Sources */,
 				DCA8243A16C985AF00B1A98D /* MMAppDelegate.m in Sources */,
 				DCA8244316C985AF00B1A98D /* MMViewController.m in Sources */,
+				DCA8245416C9906A00B1A98D /* MMSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
